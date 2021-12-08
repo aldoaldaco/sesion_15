@@ -1,0 +1,18 @@
+$blue: red;
+$spacer: 2rem;
+$primary: yellow;
+
+@mixin margin($t,$r,$b,$l) {
+    margin: $t $r $b $l; 
+}
+
+.margin-card {
+    @include  margin(1rem, 2rem, 3rem, 4rem);
+}
+
+.card-height {
+    height: 300px;
+}
+
+
+@import '../bootstrap/scss/bootstrap';
